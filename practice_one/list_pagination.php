@@ -223,7 +223,7 @@ $all_users = $db->list_pagination($users_per_page, $offset);
     </div>
 </div>
 
-  
+ 
 <script>
 $(document).ready(function () {
     new DataTable('#example');
@@ -244,7 +244,7 @@ $(document).ready(function () {
         };
         $.ajax({
           url: 'ajax_status.php', 
-          type: 'POST',
+          type: 'POST', 
           dataType: 'json',
           data: formData, 
           success: function (response) { console.log(response);
