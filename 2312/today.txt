@@ -1,0 +1,6 @@
+jQuery AJAX
+
+work on disable/enable button using js,jQuery,ajax
+work on delete button using js,jquery,ajax
+
+created two file ajax_status,ajax_delete

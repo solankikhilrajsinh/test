@@ -1,0 +1,11 @@
+learn glass effect for login,register form and apply also on forgotpassword,login,register page
+
+correcting the proper format on list,edit,add,view page like (name,phone,email,gender,dob,password,profile img)
+
+have to do additionally add 3 things that is  (document upload format,country selection,about,interests(Checkbox apply)) in our db also
+
+write condition if different user uploading profile picture with same name then we add id condition there respective id user display it number first then file name like(1_profile_img_1).
+
+write condition in edit page for user that if he enter new detaails but due to some error user data is removed/cleared
+then how user get that so for that we write some condition there like if user not editing that data then its previous
+data is only visible , if user edit new data and somehow error came than that new type data should not remove

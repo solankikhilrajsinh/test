@@ -1,0 +1,6 @@
+work on existing thing like edit and update page.
+at dashboard page give user_list so by touch there we can see the registered people list
+write a sql query condition in registration form for email if user email id previously login and display in our database then it will show error that email is already taken
+in registration form created one more parameter Profile_Image and column in user table at database.
+we crrated profile_image and make one UPLOAD folder in 2811 itself the if user will upload the picture it will store in our local folder that is UPLOADS
+

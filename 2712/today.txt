@@ -1,0 +1,11 @@
+today i have to move all sql related queries in db.php
+and in main file just we have to call fnction only
+
+all files done.
+
+
+new thing learn that is 
+create user database table using 
+1. using html css js
+2.JQUERY database.js including its jquerydatabase.css
+3.JQUERY DATABASE USING AJAX

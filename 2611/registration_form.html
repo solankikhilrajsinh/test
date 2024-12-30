@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Registration Form </title>
+    <div>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            /* display: flex;
+            justify-content: center; */
+            align-items: center;
+            height: 100vh;
+        }
+
+        h2 {
+            text-align: center;
+            color: #1a1818;
+        }
+
+        form {
+            background-color: #36486b;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            width: 455px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            font-size: 14px;
+            color: #ffffff;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+        
+        button {
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            opacity: 0.9;
+            background-color: #218838
+        } 
+
+        button[type="register"] {
+            background-color: #28a745;
+        }
+
+        button[type="reset"] {
+            background-color: #dc3545;
+        }    
+
+        button[type="reset"]:hover {
+            background-color: #c82333;
+        }
+
+        textarea {
+            resize: none; 
+        }
+        
+    </style>
+    </div>
+</head>
+<body>
+    <h2>Registration Form </h2>
+
+    <div style="display:flex;justify-content: center;">
+        <form action="registration_form.php" method="POST">
+            
+            <label for="name">Full Name:</label><br>
+            <input class="form-control" type="text" id="full_name" name="full_name" placeholder="Please enter your Name here"><br><br>
+    
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="Male" >
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female" >
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="Other" >
+            <label for="other">Other</label><br><br>
+    
+            <label for="name">Qualification:</label><br>
+            <input type="radio" id="B.Tech" name="qualification" value="B.Tech">
+            <label for="B.Tech">B.Tech</label>
+            <input type="radio" id="BCA" name="qualification" value="BCA">
+            <label for="BCA">BCA</label>
+            <input type="radio" id="M.Tech" name="qualification" value="M.Tech">
+            <label for="M.Tech">M.Tech</label>
+            <input type="radio" id="MCA" name="qualification" value="MCA">
+            <label for="MCA">MCA</label>
+            <input type="radio" id="other" name="qualification" value="other">
+            <label for="other">Other</label><br><br>
+    
+            <label for="name">Specialization:</label><br>
+            <input type="radio" id="CSE" name="specialization" value="CSE">
+            <label for="CSE">CSE</label>
+            <input type="radio" id="AI/ML" name="specialization" value="AI/ML">
+            <label for="AI/ML">AI/ML</label>
+            <input type="radio" id="CyberSecurity" name="specialization" value="CyberSecurity">
+            <label for="CyberSecurity">CyberSecurity</label>
+            <input type="radio" id="Cloud Computing" name="specialization" value="Cloud Computing">
+            <label for="Cloud Computing">Cloud Computing</label>
+            <input type="radio" id="other" name="specialization" value="other">
+            <label for="other">Other</label><br><br>
+    
+            <label for="phone">Phone Number:</label><br>
+            <input class="form-control" type="tel" id="phone_number" name="phone_number" placeholder="Please enter your Phone number here" ><br><br>
+    
+            <label for="email">Email:</label><br>
+            <input class="form-control" type="email" id="email" name="email" placeholder="Please enter your Email here" ><br><br>
+    
+            <label for="password">Password:</label><br>
+            <input class="form-control" type="password" id="password" name="password" placeholder="Please enter your Password here" ><br><br>
+    
+            <label for="date">Date:</label><br>
+            <input class="form-control" type="date" ><br><br>
+
+            <label for="hobbies">Hobbies:</label><br>
+            <input type="checkbox" id="technology" name="hobbies[]" value="Technology" >
+            <label for="Technology">Technology</label>
+            <input type="checkbox" id="sports" name="hobbies[]" value="Sports">
+            <label for="Sports">Sports</label>
+            <input type="checkbox" id="music" name="hobbies[]" value="Music">
+            <label for="Music">Music</label>
+            <input type="checkbox" id="travel" name="hobbies[]" value="Travel">
+            <label for="Travel">Travel</label>
+            <input type="checkbox" id="art" name="hobbies[]" value="Art">
+            <label for="Art">Art</label><br><br>
+
+            <!-- <label for="state">State:</label><br>
+            <input type="checkbox" id="gujarat" name="state[]" value="Gujarat"required>
+            <label for="Gujarat">Gujarat</label>
+            <input type="checkbox" id="karnataka" name="state[]" value="Karnataka">
+            <label for="Karnataka">Karnataka</label>
+            <input type="checkbox" id="tamilnadu" name="state[]" value="Tamilnadu">
+            <label for="Tamilnadu">Tamilnadu</label>
+            <input type="checkbox" id="delhi" name="state[]" value="Delhi">
+            <label for="Delhi">Travel</Delhi>
+            <input type="checkbox" id="maharashtra" name="state[]" value="Maharashtra">
+            <label for="Maharashtra">Maharashtra</label><br><br> -->
+
+            <label for="state">State:</label><br>
+            <select class="form-control" id="state" name="state" >
+                <option value="" disabled selected>Select your state</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Tamilnadu">Tamilnadu</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="MadhyaPradesh">MadhyaPradesh</option>
+                <option value="Chandigarh">Chandigarh</option>
+                <option value="HimachalPradesh">HimachalPradesh</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Bihar">Bihar</option>
+            </select><br><br>
+
+            <label for="rate">Rate Us:</label><br>
+            <select class="form-control" id="rate" name="rate" >
+                <option value="" disabled selected>Select your rating</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br><br>
+            
+            <label for ="feedback">Feedback:</label><br>
+            <textarea rows="4" class="form-control" id="feedback" name="feedback"  placeholder="Please give your Feedback here"></textarea><br><br>
+            
+            <button type="register" name="register">Register</button>
+    
+            <button type="reset">Reset</button>
+    
+        </form>
+    </div>
+    
+</body>
+</html>

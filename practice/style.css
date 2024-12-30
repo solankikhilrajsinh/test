@@ -1,0 +1,17 @@
+body {
+    background-color: #f8f9fa;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.main-content {
+    margin: auto;
+    text-align: center;
+}
+.navbar-brand {
+    font-weight: bold;
+    color: #ffffff ;
+}
+.btn-custom {
+    margin: 5px;
+}

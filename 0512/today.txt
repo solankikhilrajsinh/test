@@ -1,0 +1,18 @@
+Create all things again what we did till now
+1. Registration Form
+2. Login Form
+3. Dashboard Page
+4. List Page in this view,edit,delete
+
+
+
+first work on html
+then css
+then create database
+then make connection
+then check if empty then give error message like this field is required
+now user have to register itself then only he can login
+in between we have to check so for that we just write sql query that check email id exist or not 
+then create login page and check there if our email id and password is exist in our database and if yes then login and redirect to dashboard page
+now we have to create dashboard pagein this we have to give logout and list page button
+in list page we have to list down our users all details and in that we have to create edit,view,delete option

@@ -1,0 +1,9 @@
+Today I applied sessionstart() function on the login page and work on it.
+
+
+logout.php page is also developed and placed at dashboard page if user press that buttn it will redirect to login.php page
+
+dont have an acoount? Register here opyion will give so if user not register than it will move to registration_form.php page
+
+then created users_list table as a backendwe can go into ACTION column and then inside that we can view using view.php inside we can update delete
+      

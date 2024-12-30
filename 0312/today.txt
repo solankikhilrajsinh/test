@@ -1,0 +1,1 @@
+I created edit.php in that we take all register data from the registration_form.php page and after if user want to change there than they simply edit and updat the details

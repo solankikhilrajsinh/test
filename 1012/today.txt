@@ -1,0 +1,16 @@
+Today i have to work on two things like 
+changepassword.php in that i have to gve two input new password,confirm password if both match then we will allow user to update
+if both not match then we will throw an error like password does not match 
+
+and this option i have to give in user list page  that is list.php 
+
+
+give status option at view page , so by clicking button at time you can change Enabled/disabled users.
+if active (1) then status 0 
+if inactive(0) then status 1
+
+study reference material for 
+how to disable user if he/she is not using our site after login of 6 hr duration timestamp?
+how to put code generator at login page?
+
+after completing that work on w3schools exercise which was provided by them.

@@ -1,0 +1,3 @@
+complete rest all javascript basic topics
+
+start with javascript framework that is jQuery

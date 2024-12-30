@@ -1,0 +1,5 @@
+learning further javascript 
+arithmetic , assignment, data types, functions ,
+objects, objects properties, object methods,object display, object constructors
+js events
+js strings

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <div>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            height: 100vh;
+        }
+        h2 {
+            text-align: center;
+            color: #1a1818;
+        }
+
+        form {
+            background-color: #b3b9b1;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            width: 455px;
+        }
+
+        label {
+            font-size: 14px;
+            color: #131212;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        button[type="Login"] {
+            background-color: #28a745;
+        }
+  
+        
+    </style>
+    </div>
+</head>
+<body>
+    <h2>Login Form</h2>
+    <div style="display:flex;justify-content: center;">
+        <form action="login.php" method="POST">
+
+            <label for="email">Email:</label><br>
+            <input class="form-control" type="email" id="email" name="email" placeholder="username" required ><br><br>
+
+            <label for="password">Password:</label><br>
+            <input class="form-control" type="password" id="password" name="password" placeholder="password" required><br><br>
+
+            <button type="login" name="login">Login</button>
+        </form>
+    </div>
+</body>
+</html>

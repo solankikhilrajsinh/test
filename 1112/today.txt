@@ -1,0 +1,23 @@
+work on register.php there we have to validate phone ane email 
+like first create function for phone and email and after that we check if phone and email already exist then it will shows an error 
+
+
+work on login.php page 
+there we have 5 scenarios like
+-> if email and password not type than throw error like email ,password required
+-> check email is in correct format or not 
+-> check email id is existing in our database or not , if exist then only allow for login otherwise user have to register
+-> check type email and password is existing in our database then only login
+-> maintain session for email 
+
+work on forgotpassword.php page also
+
+
+apply function for valid email,phone and password in all pages wherever it is required.
+
+
+create a new page for add user so from backend admin also add it.
+
+
+Added a profile image on list.php ,edit.php , view.php, addnewuser.php
+

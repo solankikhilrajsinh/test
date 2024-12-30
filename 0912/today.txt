@@ -1,0 +1,9 @@
+apply bootstratp css to the Practice folder all file for better look
+
+work with bootstrap css apply and use it in practice.php and implement in my existing work
+
+create one forgotpassword.php in that if user forgot his password then we only take email address of that person and we generate otp like password using rand() function .
+if we host our website then after we will get reset link at our personal mail id from that we can use it directly.
+
+
+

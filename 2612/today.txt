@@ -1,0 +1,23 @@
+implement pagination using php
+for example , like we are recording list of users inside table so here we have to do pagination ,
+just store first 5 user input detail then from 6 it wil go to another page ,...
+
+replace list.php with created list_pagination.php 
+
+
+Applying oops concept
+first create config.php file in that i have to make 
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "practice_one";
+this all thing constant for all files and just include this file for all
+
+
+after that have to create db.php file  in that i have to make
+$conn = new mysqli($servername, $username, $password, $dbname);
+this all thing constant for all files and just include this file for all
+
+
+created helper.php file in that all validate function are there so if in future if,
+we require then we can use it as a reference

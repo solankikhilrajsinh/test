@@ -1,0 +1,14 @@
+i have to make different tables for different purposes
+
+like first user is register than its details go accordingly and after that we enter inside we can edit details like 
+country,interests,about,document and also we can add new user from backend it details is also store and both data will show at list page
+
+
+
+i made one database name practice_one inside that make two tables
+(1) users
+(2) user_details
+
+like one db but contain multiple table like user enter his data so it will form and go accordingly to the table which it is located
+here we have to use sql joins
+
