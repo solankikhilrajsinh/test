@@ -1,4 +1,4 @@
-<?php
+ <?php
 $id = $_POST['id'];
 $status = $_POST['status'];
 include('db.php');
@@ -12,6 +12,5 @@ if (isset($id) && isset($status)) {
 }
 echo json_encode($response);
 ?>
-
 
 

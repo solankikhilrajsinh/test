@@ -81,7 +81,7 @@ $all_users = $db->list_pagination($users_per_page, $offset);
     <div class="container my-2">
         <h1 class="text-center mb-4">User List</h1>
         <div class="table-responsive">
-            <table class="table table-sm table-bordered table-striped table-hover" id="example">
+            <table class="table table-sm table-bordered table-striped table-hover" id="example" >
                 <thead class="table-dark text-center">
                     <tr>
                         <th>ID</th>
@@ -100,7 +100,12 @@ $all_users = $db->list_pagination($users_per_page, $offset);
                         <th>Action</th>
                     </tr>
                 </thead>
-                <tbody>
+
+                
+                <?php
+                //this is all for custom database
+
+                /*<tbody>
                     <?php if (count($all_users) > 0) {
                         foreach ($all_users as $user) { ?>
                             <tr>
@@ -148,10 +153,13 @@ $all_users = $db->list_pagination($users_per_page, $offset);
                             <td colspan="10" class="text-center">No users found</td>
                         </tr>
                     <?php } ?>
-                </tbody>
+                </tbody>*/ ?>
             </table>
         </div>
-        <div class="pagination mt-3 text-center">
+
+
+        <?php // this we can use as custom database?>
+        <?php /*<div class="pagination mt-3 text-center">
             <?php for ($i = 1; $i <= $total_pages; $i++) { ?>
                 <a 
                     href="?page=<?php echo $i; ?>" 
@@ -159,7 +167,7 @@ $all_users = $db->list_pagination($users_per_page, $offset);
                     <?php echo $i; ?>
                 </a>
             <?php } ?>
-        </div>
+        </div> */?>
 </div>
 
 
@@ -227,9 +235,36 @@ $all_users = $db->list_pagination($users_per_page, $offset);
 <script>
 
 $(document).ready(function () {
-    new DataTable('#example');
+    //new DataTable('#example'); this we can use for jquery database
+
+
+    //this we can use as ajax database
+    new DataTable('#example', {
+        ajax: 'ajax_list_pagination.php',
+        processing: true,
+        serverSide: true,
+                columns: [
+                    { data: 'id' },
+                    { data: 'name' },
+                    { data: 'phone' },
+                    { data: 'email' },
+                    {data:'gender'},
+                    {data:'dob'},
+                    {data:'created_at'},
+                    {data:'country'},
+                    {data:'interests'},
+                    {data:'about'},
+                    {data:'password'},
+                    {data:'document'},
+                    {data:'profile_image'},
+                    {data:'action'}
+                ]
+    });
+        
+
     let userId, userStatus;
-    $(".toggle-status").click(function () {
+    // $(".toggle-status").click(function () {
+    $(document).on("click",".toggle-status",function () {
         userId = $(this).data("id");
         userStatus = $(this).data("status");
         $("#action-type").text(userStatus === 1 ? "enable" : "disable");
@@ -267,7 +302,8 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     let userId, actionType;
-    $(".delete-user").click(function () {
+    // $(".delete-user").click(function () {
+    $(document).on("click",".delete-user",function () {
         userId = $(this).data("id");
         actionType = "delete";
         $("#action-type").text(actionType);
