@@ -225,7 +225,6 @@ $all_users = $db->list_pagination($users_per_page, $offset);
 
   
 <script>
-
 $(document).ready(function () {
     new DataTable('#example');
     let userId, userStatus;
