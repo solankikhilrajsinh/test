@@ -1,3 +1,0 @@
-work on dashboard in that buttons disable/enable,view,edit,change password,delete
-
-all button now working properly

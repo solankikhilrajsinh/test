@@ -1,3 +1,0 @@
-today I have to work on sign-in,sign-up page
-
-after that i created user1,ajax_user for ajax table
