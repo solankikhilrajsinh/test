@@ -1,0 +1,7 @@
+today I have to list facilities at menu button apply there jquery validation plugin with ajax in that we have to give disable/enable,edit,delete for that created db name facilities
+
+now facilities side we enter some facility detail that we have to display in checkbox format dynamically at room addnew room page   
+
+and if we disable any id then related to that services should not be display now if we enable it then that elated to that id should be visible
+
+now we have services if any user select it then in rooms db it will show id of services and in admin table side it will show only name of services for this I write sql query 

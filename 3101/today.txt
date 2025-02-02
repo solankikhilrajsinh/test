@@ -1,0 +1,14 @@
+have to work on salary side at edit page
+something different design we have to give
+
+for ex,you are new joining your salary now is 10k
+after 1 yr your salary is 20k then you have to store in db too that updated db also
+
+
+now this is edit.php
+here in this page as you see we are making clone of salary in that part we have to adjust in database 
+
+Like first employee enter with 10rs salary after 1 year if we will give him hike of something to 20rs then we will add new salary in that clone part and that have to adjust in db automatically 
+
+first salary also should be visible and after making change new salary data also should visible
+
