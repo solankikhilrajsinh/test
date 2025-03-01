@@ -1,0 +1,35 @@
+today have to work on contact page
+there first of all I have to create db in that I have to give 4 field
+Name 
+Email
+Message
+created_at
+
+for this have to create one contact at menu page and implement ajax table in that
+
+
+id -int(11)
+name-varchar(100)
+email-varchar(100)
+message-varchar(1000)
+
+now have to create pages for these
+contact
+contact_list
+contact_add
+contact_view
+contact_Add
+
+
+we have to set like that if any user go to hotel contact page and from there he/she will submit the data so it should be save in our db and display at admin dashboard page.
+
+
+now have to implement ajax while we submitting form it is reloading page again so better apply ajax so at same place it will reload.
+
+
+have to create disable/enable button at contact table so for that I have to make one more column at database status
+
+now have to implement write query at contacts.php page if user touches the active then only active user should come if user touches inactive then inactive user should come 
+so for that I create two id 
+like 1. id="#active-example" 2. id="inactive-example" then have to write query inside that code only and one query at contact_list.php
+

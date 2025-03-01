@@ -1,0 +1,4 @@
+added three more column inside salary_history table and add at add page ,view page,edit page(clone) also
+
+first we check month and year salary is generated or not accordingly we will allow if once we generate salary that data move inside the payslips table from that we pass inside the view payslips so current latest (last month) generated salary data only display on loading with month and year if we want to check specific then we need to select month and year according it will fetch data and load the table
+

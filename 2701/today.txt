@@ -1,0 +1,5 @@
+today created employees inside that add employees 
+in that created form for that created database employees
+
+apply jquery validation plugin
+apply ajax

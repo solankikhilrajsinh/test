@@ -1,0 +1,17 @@
+ today have to implement a setting module at admin side panel 
+
+for that have to create new database
+
+tablename -setting
+id int autoincrement
+title vc
+description text
+created_at datetime
+updated_at null
+
+i have to create 
+4 pages setting_add,setting_edit,setting_view,setting_list ajax
+
+have to update serial no. like go to another page ten it should count from there only
+
+now we created setting in that if user added title contact , description +91 9856658974 should be display at our website dynamically

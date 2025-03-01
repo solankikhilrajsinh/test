@@ -1,0 +1,7 @@
+today have to make separate two tables employees and employees details
+
+in employees table just we have to put id,name,email,mobile,skype_id,created_at,updated_at
+
+in employees_details table just we have to put
+salary,started_date,da,pfa,hra,tax
+

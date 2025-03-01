@@ -1,0 +1,9 @@
+today implement salary part
+
+like first we added employee that time some salary package is there for eg.10k after 6 month we want to give some hike or increment in package so for that we are giving add button
+
+when you click add button that time previous data should be removed and have to add new package salary for eg 20k so it should update in db sa;ary_history table
+
+after that when we view particular id that time we can see how many time we give increment in salary to particular employees this all data should be maintain inside the salary_history table
+
+apply jquery validation to clone add salary also 

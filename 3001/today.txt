@@ -1,0 +1,14 @@
+implement status active inactive part at table if employee status is inactive then it should move inactive side if active then active side table
+
+
+today have to implement 
+Employee ID 
+password 
+
+change in all page empID ,password but in table page no need to display password
+
+have to apply checkbox for address onclick method using jquery javascript
+
+have to add changepassword
+
+				

@@ -1,0 +1,3 @@
+today implement is_lead toggle-switch checkbox dynamically for employees
+if that name(person) is we want to set as a lead then we will tick checkbox it will be dynamically available for all
+if we don't want to make new employee as a lead then we will not tick checkbox for that we will select lead from existing .

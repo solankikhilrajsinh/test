@@ -1,0 +1,15 @@
+implement confirm password,checkbox is click then only user will logged in otherwise it will show error checkbox is required at sign up page
+
+remove update label from the edit and profile page
+
+implement query for users table like if we search user by its any details its should be searched
+
+implement change password part in correct manner
+
+at user table we have to give view anchor link so by touching that user can move into the another tab
+
+password encrypt,decrypt using md5() php in-built function
+
+total user ,today user have to use sql querry
+
+bootstrap,jquery datepicker try to implement

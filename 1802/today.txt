@@ -1,0 +1,10 @@
+today work on designation part only we have to show whichever designation active in add and edit page.
+and we have to store only id of designation inside db not full name like Software Engineer just need to save(int value like 1,2,3).
+
+work on Lead Name part only we have to show whichever lead active in add and edit page.
+and we have to store only id of lead inside db not full name like Khilrajsinh Solanki just need to save(int value like 1,2,3).
+
+work on Team Name part only we have to show whichever team active in add and edit page.
+and we have to store only id of team inside db not full name like Team Alpha just need to save(int value like 1,2,3).
+
+change one column on employees listing page like instead of home address we give designation column

@@ -1,0 +1,2 @@
+today work on employees edit and view page
+implement functionality like date wise salary should be fetch and show only latest data 

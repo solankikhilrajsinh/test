@@ -1,0 +1,3 @@
+set up xampp to wampp
+codeigniter 8 to 7
+setup project in my system

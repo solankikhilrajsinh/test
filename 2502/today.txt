@@ -1,0 +1,5 @@
+on payslip listing table give two more buttons like pdf ,email
+
+give some 3 more fields on view,edit page total_deduction,leave_deduction,basic_salary
+
+work on pdf

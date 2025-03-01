@@ -1,0 +1,11 @@
+at index.php I have to apply validation for phone and email using jquery.
+
+like user enter phone then email is optional if user enter email then phone is optional.
+
+
+for making social link as dynamic first we have to add at setting page then assigned our variable at offcanvas.php
+now one more additional thing in this if link is available then only it icon should display to work,if link is not available then its icon should not be visible.
+
+for all listing page have to show latest updated value for that I apply at db.php ORDER BY id DESC;
+
+

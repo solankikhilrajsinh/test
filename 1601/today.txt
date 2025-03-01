@@ -1,0 +1,10 @@
+don't give edit option for disable inactive
+
+apply checkbox for the services at addnewroom.php
+
+at footer side, 
+make dynamic year ,static company name but if it will touch then it will redirect to that link in new tab
+remove creative tim aboutus blog liscense
+
+
+now have to apply jquery ajax plugin method means if user enter email it will give error on time wrt to key you press it check from db also if its exist or not

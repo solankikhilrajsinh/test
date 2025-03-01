@@ -1,0 +1,5 @@
+work on existing functionalities , 
+have to improve UI on edit page,
+have to build like if adding employee that only as lead then for that person select lead name should not be visible
+
+some changes on add page so +add section UI is change 
