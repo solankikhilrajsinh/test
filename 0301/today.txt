@@ -1,0 +1,7 @@
+today I have to work on sign-in,sign-up page
+
+after that i created user1,ajax_user for ajax table
+
+then am work on profile , change password.php page in navbar
+
+today totally work is done on new bootstrap5 design based

@@ -1,0 +1,17 @@
+routing => localhost/employee inside=> table design of it to display its data
+
+controller => Frontend/EmployeeController
+
+view => Frontend/employee.php
+
+employee url = routes['employee']="control";
+
+helper["] = base_url() or site_url() , form validation form
+
+Form Design to insert the data into your database
+
+
+
+
+
+today created full form for employee data in codeigniter  apply using jquery ajax pagination

@@ -1,0 +1,2 @@
+payslips menu inside that give one more edit page 
+at add/edit/view page at employee add 3 more fields bank account number,uan number,pf number add in employees_details table

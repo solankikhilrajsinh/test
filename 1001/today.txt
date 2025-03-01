@@ -1,0 +1,15 @@
+have to create delete button using ajax in contacts.php page but it should be dynamic like the button should only available for inactive users not for the active users.
+
+
+have to make contact_info dynamic.
+
+give iframe link dynamic for user this all should be done inside setting table
+
+in footer have to create separate db like new_latest in that if user sent email then it should be dynamic and store in our db and at contact us in footer give dynamic. for this have to make new_latest button at menu.php and have to used ajaxtable
+
+apply dummy social link at header,offcanvas,footer page.
+
+have to implement one functionality at admin side create ajax table.
+have to work at hotel side index.php for booking
+first have to create db name booking than apply ajax for form submit
+=> have to implement three more functionality there name,email,phone

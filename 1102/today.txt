@@ -1,0 +1,2 @@
+Generate Salaries Page made at that page we have to write querry that fetch data and insert into payslips table.
+after that we have to give generate salaries option in that we first check if already exist then we not allowed again to generate instead of that we show message like ("Salaries for whichever month and year there is already generated").

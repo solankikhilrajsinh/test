@@ -1,0 +1,4 @@
+today have to start working on payslips module
+its complicated we have to connect with 3 4 tables
+
+in payslips edit page we have to use modal in that we only have to update leaves in payslips table
