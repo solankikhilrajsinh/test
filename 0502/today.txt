@@ -1,0 +1,8 @@
+today employees part fully done
+country code for mobile,alternate mobile is now working with +91,etc any code
+applied new design in view page 
+
+
+after that completed full functionality working for Admins , Authentication(login,logout),Profile
+
+after that have to see on inactive,active when we change any status it will automatically change his row to target status table

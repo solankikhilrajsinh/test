@@ -1,0 +1,10 @@
+according to status (active,inactive) we have to move row dynamically at table
+
+applied class="text-nowrap" at table in  action column
+
+applied calculation for salary (base,hra,da,tax,pfa) using javascript ,jquery 
+
+applied check_page_permission for admin,employee
+he/she can see only that much thing only
+
+
