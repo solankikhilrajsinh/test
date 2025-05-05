@@ -1,0 +1,5 @@
+today implemented two modules
+
+Thought module  - In this employee login on his emp_portal then on his dashboard thought of day should be visible set according to session_id each and every employee will get different different (random) thoughts on every time loading page or login because I set query like random from thought table. so it will check in table how many thought available and on basis of that each and every time it show random thoughts.
+
+Birthday & Work Anniversary Alerts Module - In this employee login on his emp_portal then on his dashboard  it should be display like if there is birthday or working anniversary for particular login,session id of employee for dashboard page and same I implemented at compay notices there no session,login id for employee it should display to all the employees of the company

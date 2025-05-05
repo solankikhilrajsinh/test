@@ -1,0 +1,9 @@
+two thing need to check
+when we generating payslips there 
+professional tax is 200 , pf is 1800 so total deduction should be 2000 but currently it is showing 0.
+if I will give input in leave deduction or income tax then it will count
+so need to update that part if we don't gie any input then it will so like 200+1800+0 =2000 not 200+1800+0=0
+
+second thing need to check when we generating salaries there I have to remove condition salaries already generated part and test for 5,6 month 
+
+at edit page email is again checking so that part also fixed now.

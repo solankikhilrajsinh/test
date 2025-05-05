@@ -1,0 +1,13 @@
+hr_portal side thing is not working perfectly so now adjust it perfectly
+
+according to select dropdown we have to show edit,view,update leaves,gen_payslip,email is not working perfectly 
+so I solve that issue now it is working perfectly
+
+
+when we generating payslip that time if we are in current date,month,year which is 20-03-2025 and want to access 20-01-2025 then in payslip when we are generating that time it is  giving me Salary for the month of February 2025 .
+instead of Salary of the month of January 2025 .
+
+so I fixed it now and it is working perfectly if I change anything it will dynamically reflecting to payslips.
+
+today work on relieving letter part also
+its also working perfectly but issue is now that is not for all people we have to display left menu only whosever relieving generated for that particular employee only we will display relieving other person no need to display

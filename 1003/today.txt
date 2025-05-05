@@ -1,0 +1,5 @@
+Is Lead fixed with jquery validation
+if we not select is lead means it is no then lead name field is mandatory
+
+if we select yes then lead name field is not mandatory
+fixed employees listing page active , inactive

@@ -1,0 +1,4 @@
+today am working on calendar module.
+
+at hr_portal side (add,edit,delete)button updated now have to display on emp_portal side in grid way there should be all year , month ,date in grid format whichever date we update from hr_portal side that particular date will cover with yellow color and when we touch on that date we see which holiday is there(title like for eg ram navmi, new year)etc.
+and have to make separate holiday section there employee can see all (full year) holidays also.

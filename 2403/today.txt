@@ -1,0 +1,8 @@
+Relieving part now working perfectly.
+In starting there was error coming in main navigation menu that I adjust and now working properly.
+
+implemented notice/announcement module on hr_portal side if from there admin can be (add ,edit ,view ,delete) notice .
+and same way implement emp_portal side so each and every employee will access all notices and announcements.
+
+implemented courses module on hr_portal side if from there admin can be (add ,edit ,view ,delete) course .
+and same way implement emp_portal side so each and every employee will access all courses.
