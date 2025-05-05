@@ -1,0 +1,10 @@
+profile,change_password,sign out now working properly
+
+static we have to give dashboard and payslips
+according to login id his/her data only should be visible
+
+at hr_portal side email issue solved if its already there in our db then it will show message accordingly
+the email is already in use
+
+make one function in cotroller
+and from frontend form side improve jquery validation

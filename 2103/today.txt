@@ -1,0 +1,6 @@
+today I work on relievings and profile all thing working properly
+
+profile UI is change
+
+Relieving will now work dynamically if that particular id relieving data generated then he will login that time button will be there if not generated then button should not visible
+

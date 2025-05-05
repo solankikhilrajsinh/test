@@ -1,0 +1,4 @@
+today work on payslip part 
+once we generate salaries from hr_portal at emp_portal employee should be visible /access that payslips according to month and year wise.
+
+fixed view and gen_payslip page (month and year is not properly visible there).

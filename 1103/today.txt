@@ -1,0 +1,12 @@
+when we try to remove tooltip from table when we changing its status that time is not getting remove
+so for that we go into the common.js file and write javascript there.
+
+
+
+when we add new employee and we submit then mail will go to respective employee email id
+which consist of employee portal link ,
+username ,password
+
+
+session wise change password details is not getting updated when we updating in profile page 
+so now working perfect issue solved

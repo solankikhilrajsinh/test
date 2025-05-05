@@ -1,0 +1,13 @@
+Today I work on IT Support ticket management system
+
+where employee can raise ticket from emp_portal he can show his status in table
+then raised ticket comes at hr_portal in Tickets module where we can see raised tickets by 
+
+like we have table where we can see raised by whats problem category priority etc
+then we manually assign respective person related to that problem
+
+first status should be unassigned once we assign respective person then  it changes to assigned when working on that then we do as inprogress
+once issue solved we update like resolved 
+once totally thing done we do closed that ticket
+
+whatever we update that will auto reflect on emp_portal to particular id (employee).
